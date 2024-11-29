@@ -6,8 +6,8 @@ const Card = ({ article }) => {
         const target = {
             id: product.id,
             title: product.designation,
-            image: product.imageartpetitf,
-            price: product.prixVente,
+            image: product.imageart,
+            price: product.prix,
             qtestock: product.qtestock,
             quantity: 1
         };
